@@ -22,9 +22,9 @@ const props = withDefaults(defineProps<ButtonProps>(), {
 
 const buttonClasses = computed(() => {
   return [
-    "vk-button",
-    props.type && `vk-button--${props.type}`,
-    props.size && `vk-button--${props.size}`,
+    "my-button",
+    props.type && `my-button--${props.type}`,
+    props.size && `my-button--${props.size}`,
     {
       "is-plain": props.plain,
       "is-round": props.round,
@@ -44,3 +44,7 @@ defineOptions({
   name: "MyButton",
 });
 </script>
+
+<style scoped>
+
+</style>

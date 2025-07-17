@@ -1,6 +1,8 @@
 <template>
   <div>
-    <MyButton ref="btnRef">默认按钮</MyButton>
+    <MyButton ref="btnRef" type="primary">默认按钮</MyButton>
+    <MyButton ref="btnRef" type="danger">默认按钮</MyButton>
+    <a href="">1242342</a>
   </div>
 </template>
 
