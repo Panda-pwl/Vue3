@@ -1,0 +1,104 @@
+:root {
+  /* colors */
+  --my-color-white: #ffffff;
+  --my-color-black: #000000;
+
+  /* 基础颜色定义 */
+  --color-primary: #409eff;
+  --color-success: #67c23a;
+  --color-warning: #e6a23c;
+  --color-danger: #f56c6c;
+  --color-info: #909399;
+  
+  /* 主色系列表 - 手动展开每个颜色的变体 */
+  --my-color-primary: var(--color-primary);
+  --my-color-primary-light-3: color-mix(in srgb, white 30%, var(--color-primary));
+  --my-color-primary-light-5: color-mix(in srgb, white 50%, var(--color-primary));
+  --my-color-primary-light-7: color-mix(in srgb, white 70%, var(--color-primary));
+  --my-color-primary-light-8: color-mix(in srgb, white 80%, var(--color-primary));
+  --my-color-primary-dark-2: color-mix(in srgb, black 20%, var(--color-primary));
+  
+  /* 成功色系列表 */
+  --my-color-success: var(--color-success);
+  --my-color-success-light-3: color-mix(in srgb, white 30%, var(--color-success));
+  --my-color-success-light-5: color-mix(in srgb, white 50%, var(--color-success));
+  --my-color-success-light-7: color-mix(in srgb, white 70%, var(--color-success));
+  --my-color-success-light-8: color-mix(in srgb, white 80%, var(--color-success));
+  --my-color-success-dark-2: color-mix(in srgb, black 20%, var(--color-success));
+  
+  /* 警告色系列表 */
+  --my-color-warning: var(--color-warning);
+  --my-color-warning-light-3: color-mix(in srgb, white 30%, var(--color-warning));
+  --my-color-warning-light-5: color-mix(in srgb, white 50%, var(--color-warning));
+  --my-color-warning-light-7: color-mix(in srgb, white 70%, var(--color-warning));
+  --my-color-warning-light-8: color-mix(in srgb, white 80%, var(--color-warning));
+  --my-color-warning-dark-2: color-mix(in srgb, black 20%, var(--color-warning));
+  
+  /* 危险色系列表 */
+  --my-color-danger: var(--color-danger);
+  --my-color-danger-light-3: color-mix(in srgb, white 30%, var(--color-danger));
+  --my-color-danger-light-5: color-mix(in srgb, white 50%, var(--color-danger));
+  --my-color-danger-light-7: color-mix(in srgb, white 70%, var(--color-danger));
+  --my-color-danger-light-8: color-mix(in srgb, white 80%, var(--color-danger));
+  --my-color-danger-dark-2: color-mix(in srgb, black 20%, var(--color-danger));
+  
+  /* 信息色系列表 */
+  --my-color-info: var(--color-info);
+  --my-color-info-light-3: color-mix(in srgb, white 30%, var(--color-info));
+  --my-color-info-light-5: color-mix(in srgb, white 50%, var(--color-info));
+  --my-color-info-light-7: color-mix(in srgb, white 70%, var(--color-info));
+  --my-color-info-light-8: color-mix(in srgb, white 80%, var(--color-info));
+  --my-color-info-dark-2: color-mix(in srgb, black 20%, var(--color-info));
+
+  --my-bg-color: #ffffff;
+  --my-bg-color-page: #f2f3f5;
+  --my-bg-color-overlay: #ffffff;
+  --my-text-color-primary: #303133;
+  --my-text-color-regular: #606266;
+  --my-text-color-secondary: #909399;
+  --my-text-color-placeholder: #a8abb2;
+  --my-text-color-disabled: #c0c4cc;
+  --my-border-color: #dcdfe6;
+  --my-border-color-light: #e4e7ed;
+  --my-border-color-lighter: #ebeef5;
+  --my-border-color-extra-light: #f2f6fc;
+  --my-border-color-dark: #d4d7de;
+  --my-border-color-darker: #cdd0d6;
+  --my-fill-color: #f0f2f5;
+  --my-fill-color-light: #f5f7fa;
+  --my-fill-color-lighter: #fafafa;
+  --my-fill-color-extra-light: #fafcff;
+  --my-fill-color-dark: #ebedf0;
+  --my-fill-color-darker: #e6e8eb;
+  --my-fill-color-blank: #ffffff;
+
+  /* border */
+  --my-border-width: 1px;
+  --my-border-style: solid;
+  --my-border-color-hover: var(--my-text-color-disabled);
+  --my-border: var(--my-border-width) var(--my-border-style) var(--my-border-color);
+  --my-border-radius-base: 4px;
+  --my-border-radius-small: 2px;
+  --my-border-radius-round: 20px;
+  --my-border-radius-circle: 100%;
+
+  /*font*/
+  --my-font-size-extra-large: 20px;
+  --my-font-size-large: 18px;
+  --my-font-size-medium: 16px;
+  --my-font-size-base: 14px;
+  --my-font-size-small: 13px;
+  --my-font-size-extra-small: 12px;
+  --my-font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5fae\8f6f\96c5\9ed1", Arial, sans-serif;
+  --my-font-weight-primary: 500;
+
+  /*disabled*/
+  --my-disabled-bg-color: var(--my-fill-color-light);
+  --my-disabled-text-color: var(--my-text-color-placeholder);
+  --my-disabled-border-color: var(--my-border-color-light);
+  
+  /*animation*/
+  --my-transition-duration: .3s;
+  --my-transition-duration-fast: .2s;
+
+}
