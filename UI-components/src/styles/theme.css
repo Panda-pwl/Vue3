@@ -10,7 +10,7 @@
   --color-danger: #f56c6c;
   --color-info: #909399;
   
-  /* 主色系列表 - 手动展开每个颜色的变体 */
+  /* 主色系列表 */
   --my-color-primary: var(--color-primary);
   --my-color-primary-light-3: color-mix(in srgb, white 30%, var(--color-primary));
   --my-color-primary-light-5: color-mix(in srgb, white 50%, var(--color-primary));

@@ -8,7 +8,7 @@
   --my-button-disabled-bg-color: var(--my-fill-color-blank);
   --my-button-disabled-border-color: var(--my-border-color-light);
   --my-button-hover-text-color: var(--my-color-primary);
-  --my-button-hover-bg-color: var(--my-color-primary-light-9);
+  --my-button-hover-bg-color: var(--my-color-primary-light-8);
   --my-button-hover-border-color: var(--my-color-primary-light-7);
   --my-button-active-text-color: var(--my-button-hover-text-color);
   --my-button-active-border-color: var(--my-color-primary);
@@ -83,10 +83,10 @@
 .my-button[disabled], 
 .my-button[disabled]:hover, 
 .my-button[disabled]:focus {
-  color: var(--my-button-disabled-text-color);
+  /* color: var(--my-button-disabled-text-color); */
   cursor: not-allowed;
   background-image: none;
-  background-color: var(--my-button-disabled-bg-color);
+  /* background-color: var(--my-button-disabled-bg-color); */
   border-color: var(--my-button-disabled-border-color);
 }
 
@@ -178,7 +178,7 @@
 /* 朴素风格按钮 - 手动展开每个颜色变体 */
 .my-button--primary.is-plain {
   --my-button-text-color: var(--my-color-primary);
-  --my-button-bg-color: var(--my-color-primary-light-9);
+  --my-button-bg-color: var(--my-color-primary-light-8);
   --my-button-border-color: var(--my-color-primary-light-5);
   --my-button-hover-text-color: var(--my-color-white);
   --my-button-hover-bg-color: var(--my-color-primary);
@@ -188,7 +188,7 @@
 
 .my-button--success.is-plain {
   --my-button-text-color: var(--my-color-success);
-  --my-button-bg-color: var(--my-color-success-light-9);
+  --my-button-bg-color: var(--my-color-success-light-8);
   --my-button-border-color: var(--my-color-success-light-5);
   --my-button-hover-text-color: var(--my-color-white);
   --my-button-hover-bg-color: var(--my-color-success);
@@ -198,7 +198,7 @@
 
 .my-button--warning.is-plain {
   --my-button-text-color: var(--my-color-warning);
-  --my-button-bg-color: var(--my-color-warning-light-9);
+  --my-button-bg-color: var(--my-color-warning-light-8);
   --my-button-border-color: var(--my-color-warning-light-5);
   --my-button-hover-text-color: var(--my-color-white);
   --my-button-hover-bg-color: var(--my-color-warning);
@@ -208,7 +208,7 @@
 
 .my-button--info.is-plain {
   --my-button-text-color: var(--my-color-info);
-  --my-button-bg-color: var(--my-color-info-light-9);
+  --my-button-bg-color: var(--my-color-info-light-8);
   --my-button-border-color: var(--my-color-info-light-5);
   --my-button-hover-text-color: var(--my-color-white);
   --my-button-hover-bg-color: var(--my-color-info);
@@ -218,7 +218,7 @@
 
 .my-button--danger.is-plain {
   --my-button-text-color: var(--my-color-danger);
-  --my-button-bg-color: var(--my-color-danger-light-9);
+  --my-button-bg-color: var(--my-color-danger-light-8);
   --my-button-border-color: var(--my-color-danger-light-5);
   --my-button-hover-text-color: var(--my-color-white);
   --my-button-hover-bg-color: var(--my-color-danger);
