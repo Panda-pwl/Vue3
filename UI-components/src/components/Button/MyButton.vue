@@ -1,7 +1,7 @@
 <template>
   <button
     :class="buttonClasses"
-    :disabled="disable"
+    :disabled="disabled"
     :autofocus="autofocus"
     :type="nativeType"
     ref="buttonRef"
@@ -28,7 +28,7 @@ const buttonClasses = computed(() => {
     {
       "is-plain": props.plain,
       "is-round": props.round,
-      "is-disable": props.disable,
+      "is-disabled": props.disabled,
     },
   ];
 });
